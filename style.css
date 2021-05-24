@@ -397,7 +397,7 @@ footer{
         display: block;
     }
     nav ul li a{
-        font-size: 30px;
+        font-size: 20px;
     }
     .hamburger-menu{
         display: unset;  
