@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.logo h1{
+    font-family:"Heebo",sans-serif;
+    font-size: 30px;
+    color: #333333;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.hamburger-menu{
+    display: none;
+}
+.main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.text{
+    padding-top: 50px;
+    width: 36%;
+    margin-left: 16rem;
+}
+.text p{
+    font-size: 18px;
+    color: #2D9CDB;
+    font-weight: 500;
+}
+.heroimage img{
+    width: 100%;
+    border-radius: 18px;
+}
+.heroimage{
+    padding-top: 50px;
+    width: 90%;
+    margin:0 auto;
+}
+.text2{
+    padding-top: 50px;
+    width: 30%;
+    margin-left: 16rem;
+}
+.text h1, .text2 h1{
+    font-size:48px ;
+    padding-top: 50px;
+    color: #333333;
+}
+.text2 p{
+    font-size: 18px;
+    color: #4f4f4f;
+    padding-top: 50px;
+}
+.contact{
+    padding-top: 50px;
+}
+.contact span{
+    color:#828282;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.contact button{
+    position: absolute;
+    right:0;
+    top: 0;
+    background-color: #2D9CDB;
+    color: #F2F2F2;
+    border: none;
+    padding:20px 33px;
+    border-radius: 12px;
+    font-size: 18px;
+}
+form{
+    position: relative;
+}
+
+input{
+    border:none;
+    padding:20px;
+    background-color: #f2f2f2;
+    width: 100%;    
+    border-radius: 12px;
+}
+input::placeholder{
+    color:#BDBDBD;
+    font-size: 18px;
+}
+.section{
+    padding-top: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+.cards{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.card{
+    width: 30%;
+    padding: 40px;
+}
+.card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+.card h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #333333;
+}
+.card p, .people-content p{
+    font-size: 16px;
+    color: #4f4f4f;
+    padding-bottom: 30px;
+}
+.offer h1{
+    font-size: 36px;
+    color: #333333;
+    font-weight: 500;
+    width: 30%;
+    padding-top: 5rem;
+}
+.ui-color{
+    background: #2D9CDB;
+}
+.front-color{
+    background: #27AE60;
+}
+.back-color{
+    background: #EB5757;
+}
+.icon{
+    padding: 20px;
+    border-radius: 12px;
+    width: fit-content;
+}
+.fa{
+    color: #FFFFFF;
+}
+.card button{
+     color: #828282;
+     background-color: #E0E0E0;
+     font-size: 16px;
+     border: none;
+     padding: 10px 40px;
+     border-radius: 12px;
+}
+.pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    padding-top: 60px;
+}
+.pic img{
+    border-radius: 16px;
+}
+.pic p , .name p{
+    font-size: 14px;
+    color: #828282;
+}
+.pic h1{
+    font-size: 24px;
+    color: #333333;
+}
+.more{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+}
+.more a{
+    text-decoration: none;
+    color: #2D9CDB;
+    font-size: 24px;
+    font-weight: 500;
+}
+.card button:hover{
+    background-color: #2D9CDB;
+    color: #FFFFFF;
+}
+.people{
+    padding-top: 13rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.people-content{
+    width: 25%;
+}
+.people-content h2{
+    color: #EB5757; 
+    font-size: 18px;
+}
+.people-content h1{
+    font-size: 36px; 
+    color: #333333;
+}
+.down{
+    position: relative;
+    bottom: -10rem;
+}
+.people-img{
+    margin-left: 14rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    /* position: absolute; */
+    
+}
+.people-img img{
+    border-radius: 24px;
+}
+.one{
+    width: 260px;
+    height: 260px;
+    grid-column: 2/3;
+}
+.two{
+    width: 262px;
+    height: 262px;
+    grid-column: 2/3;
+}
+.three{
+    grid-row: 2/3;
+    position: relative;
+    top: -6rem;
+    width: 262px;
+    height: 262px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+}
+.sp{
+    width: 30%;
+}
+.user span{
+    display: block;
+}
+.user-header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+}
+.name h1{
+    color: #333333;
+    font-size: 24px;
+}
+
+.bottom{
+    padding-top: 7rem 0 7rem 0;
+}
+.testimonial{
+    width: 70%; 
+    font-size: 16px; 
+    color: #333333; 
+    line-height: 40px;
+    padding-top: 10rem;
+}
+.name{
+    margin-left: 20px;
+}
+footer{
+ background-color:#100E1D;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.footer-contact{
+    padding-right: 80px;
+}
+.services a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    line-height: 26px;
+}
+.link h1{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.footer-content span{
+    color: #f2f2f2;
+    font-size: 14px;
+    line-height: 21px;
+}
+.copyright p{
+    color: #F2F2F2;
+    text-align: center;
+    line-height: 17px;
+}
+@media screen and (max-width:768px) {
+    .section{
+        width: 90%;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text2{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .text h1, .text2 h1{
+        padding-top: 12px;
+        font-size: 32px;
+    }
+    .hamburger-menu {
+        display: unset;
+    }
+    .header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index:10;
+        background-color: #FFFFFF;
+    }
+    nav a::after{
+        display: none;
+    }
+    .close-menu{
+        height: 2px;
+        position: absolute;
+        top: 25px;
+        right: 14px;
+    }
+    .close-menu div{
+        width: 30px;
+        height: 6px;
+        background-color: black;
+    }
+    .cross-one{
+        transform:rotate(45deg);
+    }
+    .cross-two{
+        position: absolute;
+        top: 0;
+        transform:rotate(-45deg);
+    }
+    nav ul{
+        margin-top: 115px;
+    }
+    nav ul.open{
+        height: auto;
+    }
+    nav ul li{
+        float:left;
+        text-align:center;
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    nav  a{
+        padding-left: 60px;
+    }
+    .hamburger-menu>img{
+        width: 40px;
+        display: block;
+    }
+    nav ul li a{
+        font-size: 30px;
+    }
+    .hamburger-menu{
+        display: unset;  
+    }
+    .card h1{
+        font-size: 18px;
+    }
+   .main{
+        margin-top: unset;
+        padding-top: 20px;
+   }
+    .offer h1{
+        width: 90%;
+        font-size: 30px;
+    }
+    .cards{
+        display: block;
+    }
+    .one, .two{
+        width: 140px;
+        height: 140px;
+    }
+    .three{
+        width: 158px;
+        height: 158px;
+    }
+    .pic{
+        display: block;
+        padding-top: 30px;
+    }
+    .pic img{
+        width: 100%;
+    }
+    .more{
+        flex-direction: row;
+    }
+    input{
+        width: 80%;
+    }
+    .people-img {
+        margin-left: unset;
+        position: absolute;
+    }
+    .people{
+        display: block;
+    }
+    .testimonial{
+        font-size: 12px;
+        padding-top: 23rem;
+    }
+    .people-content, .testimonial,.card{
+        width: 100%;
+    }
+    .down{
+        position: unset;
+    }
+    .sp{
+        width: unset;
+    }
+    .footer-content{
+        display: block;
+    }
+    .link{
+        margin-top: 4rem;
+    }
+    
+}
